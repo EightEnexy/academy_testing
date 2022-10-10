@@ -61,7 +61,7 @@ class BookServiceImplTest {
   }
 
   @Test
-  void testPersist() {
+  void testSave() {
 
     Book testBook = new Book();
     testBook.setName("Book_1");
